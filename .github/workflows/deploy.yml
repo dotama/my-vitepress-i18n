@@ -27,7 +27,7 @@ jobs:
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4  # 更新到 v4 版本
       with:
-        github_token: ${{ secrets.VP_TOKEN }}
+        vp_token: ${{ secrets.VP_TOKEN }}
         publish_dir: ./docs/.vitepress/dist
         # 如果你的项目根目录中包含 CNAME 文件（例如自定义域名），则需要额外配置
         # cname: your.custom.domain
