@@ -6,7 +6,7 @@ export const head: HeadConfig[] = [
         {
             rel: "icon",
             //开发时识别
-            href: "/assets/favicon.ico",
+            href: "/my-vitepress-i18n/favicon.ico",
         },
     ],
 ];
