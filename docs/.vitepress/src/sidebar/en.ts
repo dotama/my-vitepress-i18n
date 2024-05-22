@@ -42,12 +42,12 @@ export const sidebar = {
         },
     ],
     // 关于相关侧边栏
-    '/en/examples/about/': [
+    '/en/about/': [
         {
             text: "About us",
             items: [
-                { text: "Team", link: "/en/examples/about/team" },
-                { text: "Q&A", link: "/en/examples/about/problem" },
+                { text: "Team", link: "/en/about/team" },
+                { text: "Q&A", link: "/en/about/problem" },
             ],
             collapsed: false,
         },

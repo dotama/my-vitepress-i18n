@@ -20,5 +20,9 @@ export default defineConfig({
         root: { label: '简体中文', lang: 'cn', link: '/', ...cnConfig },
         en: { label: 'English', lang: 'en', link: '/en/', ...enConfig },
     },
-    base: '/my-vitepress-i18n/'
+    base: '/my-vitepress-i18n/',
+    rewrites: {
+        'examples/about/(.*)': 'about/(.*)',
+        'en/examples/about/(.*)': 'en/about/(.*)'
+    },
 });
