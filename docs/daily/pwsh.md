@@ -32,7 +32,7 @@
    ```powershell
    Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
    choco install powershell-core -y
-
+   
    ```
 
    安装完关闭 Terminal，直接点击新的 PowerShell 如下图
@@ -105,5 +105,8 @@
    这样每次打开就是你喜欢的主题了
 
    ![image-20240524183041580](https://raw.githubusercontent.com/dotama/pic-storage/master/2024/05/upgit_20240524_1716546645.png)
+   
+   当然最重要的是有像fish那样的提示功能，不过pwsh不能像linux一样直接按tab就能补全的（微软会自己给命令按字母排序🙄）
+   ![image-20240524192554748](https://raw.githubusercontent.com/dotama/pic-storage/master/2024/05/upgit_20240524_1716549955.png)
 
 # FIN
