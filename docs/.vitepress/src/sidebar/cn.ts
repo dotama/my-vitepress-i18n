@@ -59,7 +59,7 @@ export const sidebar = {
             items: [
                 {
                     text: "项目",
-                    items: [{ text: "PWSH", link: "/daily/pwsh" }],
+                    items: [{ text: "PowerShell美化", link: "/daily/pwsh" }],
                 },
 
             ],
