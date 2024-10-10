@@ -6,6 +6,12 @@ export default function getNav(): DefaultTheme.NavItem[] {
         { text: "VitePress", link: "/vitepress/introduction/start", activeMatch: "^/vitepress/introduction" },
         { text: "Markdown", link: "/markdown/introduction/start", activeMatch: "^/markdown/introduction" },
         {
+            text: "每日一练",
+            items: [
+                { text: "项目", link: "/daily/pwsh", activeMatch: "/daily/pwsh" }
+            ]
+        },
+        {
             text: "关于",
             items: [
                 {
