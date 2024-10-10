@@ -52,4 +52,18 @@ export const sidebar = {
             collapsed: false,
         },
     ],
+    // 每日一练相关侧边栏
+    '/daily/': [
+        {
+            text: "每日一练",
+            items: [
+                {
+                    text: "项目",
+                    items: [{ text: "PowerShell美化", link: "/daily/pwsh" }],
+                },
+
+            ],
+            collapsed: false,
+        },
+    ],
 };
